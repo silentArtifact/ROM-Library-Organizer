@@ -15,4 +15,4 @@ dependencies = []
 Homepage = "https://example.com"
 
 [project.scripts]
-rom-library-organizer = "rom_library_organizer.__main__:main"
+rom-library-organizer = "rom_library_organizer.cli:main"

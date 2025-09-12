@@ -1,7 +1,6 @@
-"""Command-line interface for rom_library_organizer."""
+"""Command-line entry point for rom_library_organizer."""
 
-def main():
-    print("ROM Library Organizer CLI placeholder")
+from .cli import main
 
 if __name__ == "__main__":
     main()
