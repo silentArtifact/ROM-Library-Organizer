@@ -24,6 +24,35 @@ rom-library-organizer
 
 This command currently displays a placeholder message.
 
+## CLI Examples
+
+The tool accepts a directory of ROM files and one or more platform names. The
+examples below show how to invoke the organizer for each supported platform.
+
+### Batocera
+
+```bash
+rom-library-organizer /path/to/roms batocera
+```
+
+### Knulli
+
+```bash
+rom-library-organizer /path/to/roms knulli
+```
+
+### NextUI
+
+```bash
+rom-library-organizer /path/to/roms nextui
+```
+
+### ROMM
+
+```bash
+rom-library-organizer /path/to/roms romm
+```
+
 ## Goals
 
 - Provide a command-line interface for organizing ROM files.
