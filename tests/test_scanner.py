@@ -1,7 +1,4 @@
 from pathlib import Path
-import sys
-
-sys.path.append(str(Path(__file__).resolve().parents[1] / "src"))
 
 from rom_library_organizer.scanner import scan_roms
 
