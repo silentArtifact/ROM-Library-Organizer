@@ -8,6 +8,23 @@ ROM Library Organizer is a tool designed to help manage and organize collections
 pip install rom-library-organizer
 ```
 
+### Manual installation (no PyPI access)
+
+1. Download the source code (clone this repository or grab a release archive) and move into the project directory.
+2. (Optional) Create and activate a virtual environment.
+3. Build a wheel locally so you can install without hitting PyPI:
+   ```bash
+   python -m pip install --upgrade build
+   python -m build
+   ```
+   The wheel is written to `dist/`.
+4. Install from the wheel directly:
+   ```bash
+   python -m pip install dist/rom_library_organizer-*.whl
+   ```
+
+This keeps the entire installation process offline after fetching the source.
+
 For development installation from source:
 
 ```bash
